@@ -29,17 +29,18 @@ print()
 # Q.Find the indexes where the value is 4:
 arr = np.array([1, 2, 3, 4, 5, 4, 4])
 x = np.where(arr == 4)
-print(x)
+print("Indexes is: ",x)
 
 # Q. Find the indexes where the values are even:
 arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 
 x = np.where(arr%2 == 0)
 
-print(x)
+print("Even indexes is: ",x)
+
+print()
 
 # Sorting Np Array
 arr = np.array([10, 30, 5, 20])
 print("After Sorting:", np.sort(arr))
 
-#
