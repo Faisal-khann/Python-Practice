@@ -17,8 +17,6 @@ print()
 
 # Spliting Arrays ->Splitting is reverse operation of Joining.
 # We use array_split() for splitting arrays, we pass it the array we want to split and the number of splits.
-import numpy as np
-
 arr = np.array([1, 2, 3, 4, 5, 6])
 
 newarr = np.array_split(arr, 3)
@@ -36,6 +34,14 @@ arr = np.array([1, 2, 3, 4, 5, 4, 4])
 x = np.where(arr == 4)
 print(x)
 
+# Q. Find the indexes where the values are even:
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
+
+x = np.where(arr%2 == 0)
+
+print(x)
 
 # Sorting Np Array
 import numpy as np
