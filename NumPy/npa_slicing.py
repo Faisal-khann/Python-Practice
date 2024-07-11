@@ -3,6 +3,7 @@
 #We can also define the step, like this: [start:end:step].
 
 import numpy as np
+# Slicing 1-D Arrays
 #Slice elements from index 1 to 5 
 arr = np.array([1, 2, 3, 4, 5, 6, 7])
 print(arr[1:5])
@@ -12,3 +13,11 @@ print(arr[4:])
 
 #Slice elements from the beginning to index 4 (not included):
 print(arr[:4])
+
+#Use the step value to determine the step of the slicing:
+#Return every other element from index 1 to index 5:
+print(arr[1:5:2])
+
+#Return every other element from the entire array:
+print(arr[::2])
+
