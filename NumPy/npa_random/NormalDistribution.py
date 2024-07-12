@@ -1,8 +1,10 @@
-# Use the random.normal() method to get a Normal Data Distribution.
-# It has three parameters:
-# loc - (Mean) where the peak of the bell exists.
-# scale - (Standard Deviation) how flat the graph distribution should be.
-# size - The shape of the returned array.
+''' 
+Use the random.normal() method to get a Normal Data Distribution.
+It has three parameters:
+ 1. loc - (Mean) where the peak of the bell exists.
+ 2. scale - (Standard Deviation) how flat the graph distribution should be.
+ 3. size - The shape of the returned array.
+'''
 
 # Generate a random normal distribution of size 2*3
 from numpy import random
