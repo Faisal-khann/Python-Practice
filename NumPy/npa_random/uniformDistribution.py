@@ -23,4 +23,3 @@ import seaborn as sns
 # x = random.uniform(size=(1000))
 sns.distplot(random.uniform(size=1000), hist=False, label="Uniform")
 plt.show()
-print(x)
