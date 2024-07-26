@@ -1,4 +1,5 @@
 #check which number is prime or not
+# prime number-> It is a number that can only be divided evenly by 1 and the number itself. 
 n =int(input('Enter the value of number:'))
 temp = 0 # temp is used to store
 
