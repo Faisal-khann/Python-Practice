@@ -2,7 +2,7 @@
 num = int(input('Enter the number: '))
 def findPrime(num):
     temp = 0
-    for i in range(2 , num-2):
+    for i in range(2 , num): # range of i is from 2 to num-1;
         if num % i == 0:
             temp = temp + 1
 
