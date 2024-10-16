@@ -10,8 +10,8 @@ print("Type of the given Dictnory is: ", type(mydict))
 mydict.update({"Color": "Red"})
 print(mydict)
 # We can change the value of a specific item by referring to its key name:
-# as well as update({"year": 2008})
-mydict["year"] = 2008
+# mydict["year"] = 2008 or we can use mydict.update({"year": 2008})
+mydict.update({"year": 2008})
 print(mydict)
 print(' ')
 
