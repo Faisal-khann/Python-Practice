@@ -16,15 +16,20 @@ class Employee:
         # print("ID of the Employee:%d\n Name of the Employee:%s" % (self.id, self.name))
         print(f"Id of the {self.name} is:", self.id)
         print(f"Name of the Employee is:", self.name)
+        print("Working company is: ", Employee.company_Name)
         print()
 
 
 # object
 emp1 = Employee("John", 101)
-emp2 = Employee("Charlie", 102)
-emp3 = Employee("Em", 103)
-print("Working Company is:",Employee.company_Name)
-
 emp1.getInfo()
+
+emp2 = Employee("Charlie", 102)
 emp2.getInfo()
+
+emp3 = Employee("Em", 103)
 emp3.getInfo()
+# print("Working Company is:",Employee.company_Name)
+
+
+
