@@ -46,8 +46,3 @@ def canDrive(age):
 
 if __name__ == '__main__':
   canDrive(age)
-
-    
-
-      
-
